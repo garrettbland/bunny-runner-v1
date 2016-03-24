@@ -1,0 +1,517 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DE2C6DC11CA380CB00D54F2A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE2C6DC01CA380CB00D54F2A /* AppDelegate.swift */; };
+		DE2C6DC31CA380CB00D54F2A /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = DE2C6DC21CA380CB00D54F2A /* GameScene.sks */; };
+		DE2C6DC51CA380CB00D54F2A /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE2C6DC41CA380CB00D54F2A /* GameScene.swift */; };
+		DE2C6DC71CA380CB00D54F2A /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE2C6DC61CA380CB00D54F2A /* GameViewController.swift */; };
+		DE2C6DCA1CA380CB00D54F2A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE2C6DC81CA380CB00D54F2A /* Main.storyboard */; };
+		DE2C6DCC1CA380CB00D54F2A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE2C6DCB1CA380CB00D54F2A /* Assets.xcassets */; };
+		DE2C6DCF1CA380CB00D54F2A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE2C6DCD1CA380CB00D54F2A /* LaunchScreen.storyboard */; };
+		DE2C6DDA1CA380CB00D54F2A /* Bunny_RunnerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE2C6DD91CA380CB00D54F2A /* Bunny_RunnerTests.swift */; };
+		DE2C6DE51CA380CB00D54F2A /* Bunny_RunnerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE2C6DE41CA380CB00D54F2A /* Bunny_RunnerUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DE2C6DD61CA380CB00D54F2A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DE2C6DB51CA380CB00D54F2A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DE2C6DBC1CA380CB00D54F2A;
+			remoteInfo = "Bunny Runner";
+		};
+		DE2C6DE11CA380CB00D54F2A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DE2C6DB51CA380CB00D54F2A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DE2C6DBC1CA380CB00D54F2A;
+			remoteInfo = "Bunny Runner";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DE2C6DBD1CA380CB00D54F2A /* Bunny Runner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Bunny Runner.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE2C6DC01CA380CB00D54F2A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DE2C6DC21CA380CB00D54F2A /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		DE2C6DC41CA380CB00D54F2A /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		DE2C6DC61CA380CB00D54F2A /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		DE2C6DC91CA380CB00D54F2A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DE2C6DCB1CA380CB00D54F2A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DE2C6DCE1CA380CB00D54F2A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DE2C6DD01CA380CB00D54F2A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DE2C6DD51CA380CB00D54F2A /* Bunny RunnerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Bunny RunnerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE2C6DD91CA380CB00D54F2A /* Bunny_RunnerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bunny_RunnerTests.swift; sourceTree = "<group>"; };
+		DE2C6DDB1CA380CB00D54F2A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DE2C6DE01CA380CB00D54F2A /* Bunny RunnerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Bunny RunnerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE2C6DE41CA380CB00D54F2A /* Bunny_RunnerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bunny_RunnerUITests.swift; sourceTree = "<group>"; };
+		DE2C6DE61CA380CB00D54F2A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DE2C6DBA1CA380CB00D54F2A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE2C6DD21CA380CB00D54F2A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE2C6DDD1CA380CB00D54F2A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DE2C6DB41CA380CB00D54F2A = {
+			isa = PBXGroup;
+			children = (
+				DE2C6DBF1CA380CB00D54F2A /* Bunny Runner */,
+				DE2C6DD81CA380CB00D54F2A /* Bunny RunnerTests */,
+				DE2C6DE31CA380CB00D54F2A /* Bunny RunnerUITests */,
+				DE2C6DBE1CA380CB00D54F2A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DE2C6DBE1CA380CB00D54F2A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DE2C6DBD1CA380CB00D54F2A /* Bunny Runner.app */,
+				DE2C6DD51CA380CB00D54F2A /* Bunny RunnerTests.xctest */,
+				DE2C6DE01CA380CB00D54F2A /* Bunny RunnerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DE2C6DBF1CA380CB00D54F2A /* Bunny Runner */ = {
+			isa = PBXGroup;
+			children = (
+				DE2C6DC01CA380CB00D54F2A /* AppDelegate.swift */,
+				DE2C6DC21CA380CB00D54F2A /* GameScene.sks */,
+				DE2C6DC41CA380CB00D54F2A /* GameScene.swift */,
+				DE2C6DC61CA380CB00D54F2A /* GameViewController.swift */,
+				DE2C6DC81CA380CB00D54F2A /* Main.storyboard */,
+				DE2C6DCB1CA380CB00D54F2A /* Assets.xcassets */,
+				DE2C6DCD1CA380CB00D54F2A /* LaunchScreen.storyboard */,
+				DE2C6DD01CA380CB00D54F2A /* Info.plist */,
+			);
+			path = "Bunny Runner";
+			sourceTree = "<group>";
+		};
+		DE2C6DD81CA380CB00D54F2A /* Bunny RunnerTests */ = {
+			isa = PBXGroup;
+			children = (
+				DE2C6DD91CA380CB00D54F2A /* Bunny_RunnerTests.swift */,
+				DE2C6DDB1CA380CB00D54F2A /* Info.plist */,
+			);
+			path = "Bunny RunnerTests";
+			sourceTree = "<group>";
+		};
+		DE2C6DE31CA380CB00D54F2A /* Bunny RunnerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DE2C6DE41CA380CB00D54F2A /* Bunny_RunnerUITests.swift */,
+				DE2C6DE61CA380CB00D54F2A /* Info.plist */,
+			);
+			path = "Bunny RunnerUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DE2C6DBC1CA380CB00D54F2A /* Bunny Runner */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DE2C6DE91CA380CB00D54F2A /* Build configuration list for PBXNativeTarget "Bunny Runner" */;
+			buildPhases = (
+				DE2C6DB91CA380CB00D54F2A /* Sources */,
+				DE2C6DBA1CA380CB00D54F2A /* Frameworks */,
+				DE2C6DBB1CA380CB00D54F2A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Bunny Runner";
+			productName = "Bunny Runner";
+			productReference = DE2C6DBD1CA380CB00D54F2A /* Bunny Runner.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DE2C6DD41CA380CB00D54F2A /* Bunny RunnerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DE2C6DEC1CA380CB00D54F2A /* Build configuration list for PBXNativeTarget "Bunny RunnerTests" */;
+			buildPhases = (
+				DE2C6DD11CA380CB00D54F2A /* Sources */,
+				DE2C6DD21CA380CB00D54F2A /* Frameworks */,
+				DE2C6DD31CA380CB00D54F2A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DE2C6DD71CA380CB00D54F2A /* PBXTargetDependency */,
+			);
+			name = "Bunny RunnerTests";
+			productName = "Bunny RunnerTests";
+			productReference = DE2C6DD51CA380CB00D54F2A /* Bunny RunnerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DE2C6DDF1CA380CB00D54F2A /* Bunny RunnerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DE2C6DEF1CA380CB00D54F2A /* Build configuration list for PBXNativeTarget "Bunny RunnerUITests" */;
+			buildPhases = (
+				DE2C6DDC1CA380CB00D54F2A /* Sources */,
+				DE2C6DDD1CA380CB00D54F2A /* Frameworks */,
+				DE2C6DDE1CA380CB00D54F2A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DE2C6DE21CA380CB00D54F2A /* PBXTargetDependency */,
+			);
+			name = "Bunny RunnerUITests";
+			productName = "Bunny RunnerUITests";
+			productReference = DE2C6DE01CA380CB00D54F2A /* Bunny RunnerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DE2C6DB51CA380CB00D54F2A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Anvil Studios";
+				TargetAttributes = {
+					DE2C6DBC1CA380CB00D54F2A = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					DE2C6DD41CA380CB00D54F2A = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = DE2C6DBC1CA380CB00D54F2A;
+					};
+					DE2C6DDF1CA380CB00D54F2A = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = DE2C6DBC1CA380CB00D54F2A;
+					};
+				};
+			};
+			buildConfigurationList = DE2C6DB81CA380CB00D54F2A /* Build configuration list for PBXProject "Bunny Runner" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DE2C6DB41CA380CB00D54F2A;
+			productRefGroup = DE2C6DBE1CA380CB00D54F2A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DE2C6DBC1CA380CB00D54F2A /* Bunny Runner */,
+				DE2C6DD41CA380CB00D54F2A /* Bunny RunnerTests */,
+				DE2C6DDF1CA380CB00D54F2A /* Bunny RunnerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DE2C6DBB1CA380CB00D54F2A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE2C6DC31CA380CB00D54F2A /* GameScene.sks in Resources */,
+				DE2C6DCF1CA380CB00D54F2A /* LaunchScreen.storyboard in Resources */,
+				DE2C6DCC1CA380CB00D54F2A /* Assets.xcassets in Resources */,
+				DE2C6DCA1CA380CB00D54F2A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE2C6DD31CA380CB00D54F2A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE2C6DDE1CA380CB00D54F2A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DE2C6DB91CA380CB00D54F2A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE2C6DC51CA380CB00D54F2A /* GameScene.swift in Sources */,
+				DE2C6DC71CA380CB00D54F2A /* GameViewController.swift in Sources */,
+				DE2C6DC11CA380CB00D54F2A /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE2C6DD11CA380CB00D54F2A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE2C6DDA1CA380CB00D54F2A /* Bunny_RunnerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE2C6DDC1CA380CB00D54F2A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE2C6DE51CA380CB00D54F2A /* Bunny_RunnerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DE2C6DD71CA380CB00D54F2A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DE2C6DBC1CA380CB00D54F2A /* Bunny Runner */;
+			targetProxy = DE2C6DD61CA380CB00D54F2A /* PBXContainerItemProxy */;
+		};
+		DE2C6DE21CA380CB00D54F2A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DE2C6DBC1CA380CB00D54F2A /* Bunny Runner */;
+			targetProxy = DE2C6DE11CA380CB00D54F2A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DE2C6DC81CA380CB00D54F2A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DE2C6DC91CA380CB00D54F2A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DE2C6DCD1CA380CB00D54F2A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DE2C6DCE1CA380CB00D54F2A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DE2C6DE71CA380CB00D54F2A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DE2C6DE81CA380CB00D54F2A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DE2C6DEA1CA380CB00D54F2A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Bunny Runner/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "AnvilStudios.Bunny-Runner";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DE2C6DEB1CA380CB00D54F2A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Bunny Runner/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "AnvilStudios.Bunny-Runner";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		DE2C6DED1CA380CB00D54F2A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				INFOPLIST_FILE = "Bunny RunnerTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "AnvilStudios.Bunny-RunnerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Bunny Runner.app/Bunny Runner";
+			};
+			name = Debug;
+		};
+		DE2C6DEE1CA380CB00D54F2A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Bunny RunnerTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "AnvilStudios.Bunny-RunnerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Bunny Runner.app/Bunny Runner";
+			};
+			name = Release;
+		};
+		DE2C6DF01CA380CB00D54F2A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				INFOPLIST_FILE = "Bunny RunnerUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "AnvilStudios.Bunny-RunnerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Bunny Runner";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		DE2C6DF11CA380CB00D54F2A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Bunny RunnerUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "AnvilStudios.Bunny-RunnerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Bunny Runner";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DE2C6DB81CA380CB00D54F2A /* Build configuration list for PBXProject "Bunny Runner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE2C6DE71CA380CB00D54F2A /* Debug */,
+				DE2C6DE81CA380CB00D54F2A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DE2C6DE91CA380CB00D54F2A /* Build configuration list for PBXNativeTarget "Bunny Runner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE2C6DEA1CA380CB00D54F2A /* Debug */,
+				DE2C6DEB1CA380CB00D54F2A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DE2C6DEC1CA380CB00D54F2A /* Build configuration list for PBXNativeTarget "Bunny RunnerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE2C6DED1CA380CB00D54F2A /* Debug */,
+				DE2C6DEE1CA380CB00D54F2A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DE2C6DEF1CA380CB00D54F2A /* Build configuration list for PBXNativeTarget "Bunny RunnerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE2C6DF01CA380CB00D54F2A /* Debug */,
+				DE2C6DF11CA380CB00D54F2A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DE2C6DB51CA380CB00D54F2A /* Project object */;
+}
