@@ -7,15 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		DE2C6DC11CA380CB00D54F2A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE2C6DC01CA380CB00D54F2A /* AppDelegate.swift */; };
-		DE2C6DC31CA380CB00D54F2A /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = DE2C6DC21CA380CB00D54F2A /* GameScene.sks */; };
-		DE2C6DC51CA380CB00D54F2A /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE2C6DC41CA380CB00D54F2A /* GameScene.swift */; };
-		DE2C6DC71CA380CB00D54F2A /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE2C6DC61CA380CB00D54F2A /* GameViewController.swift */; };
-		DE2C6DCA1CA380CB00D54F2A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE2C6DC81CA380CB00D54F2A /* Main.storyboard */; };
 		DE2C6DCC1CA380CB00D54F2A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE2C6DCB1CA380CB00D54F2A /* Assets.xcassets */; };
-		DE2C6DCF1CA380CB00D54F2A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE2C6DCD1CA380CB00D54F2A /* LaunchScreen.storyboard */; };
 		DE2C6DDA1CA380CB00D54F2A /* Bunny_RunnerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE2C6DD91CA380CB00D54F2A /* Bunny_RunnerTests.swift */; };
 		DE2C6DE51CA380CB00D54F2A /* Bunny_RunnerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE2C6DE41CA380CB00D54F2A /* Bunny_RunnerUITests.swift */; };
+		DE2C6E0A1CA3866F00D54F2A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE2C6DFD1CA3866F00D54F2A /* AppDelegate.swift */; };
+		DE2C6E0B1CA3866F00D54F2A /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = DE2C6DFE1CA3866F00D54F2A /* GameScene.sks */; };
+		DE2C6E0C1CA3866F00D54F2A /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE2C6DFF1CA3866F00D54F2A /* GameScene.swift */; };
+		DE2C6E0D1CA3866F00D54F2A /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE2C6E001CA3866F00D54F2A /* GameViewController.swift */; };
+		DE2C6E0E1CA3866F00D54F2A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE2C6E011CA3866F00D54F2A /* Main.storyboard */; };
+		DE2C6E0F1CA3866F00D54F2A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE2C6E021CA3866F00D54F2A /* LaunchScreen.storyboard */; };
+		DE2C6E101CA3866F00D54F2A /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = DE2C6E031CA3866F00D54F2A /* Info.plist */; };
+		DE2C6E111CA3866F00D54F2A /* score_up.caff in Resources */ = {isa = PBXBuildFile; fileRef = DE2C6E041CA3866F00D54F2A /* score_up.caff */; };
+		DE2C6E121CA3866F00D54F2A /* small_pixel-7.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DE2C6E051CA3866F00D54F2A /* small_pixel-7.ttf */; };
+		DE2C6E131CA3866F00D54F2A /* sound_die.caff in Resources */ = {isa = PBXBuildFile; fileRef = DE2C6E061CA3866F00D54F2A /* sound_die.caff */; };
+		DE2C6E141CA3866F00D54F2A /* score_up_higher.caff in Resources */ = {isa = PBXBuildFile; fileRef = DE2C6E071CA3866F00D54F2A /* score_up_higher.caff */; };
+		DE2C6E151CA3866F00D54F2A /* PlayScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE2C6E081CA3866F00D54F2A /* PlayScene.swift */; };
+		DE2C6E161CA3866F00D54F2A /* RandomFunction.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE2C6E091CA3866F00D54F2A /* RandomFunction.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,20 +44,27 @@
 
 /* Begin PBXFileReference section */
 		DE2C6DBD1CA380CB00D54F2A /* Bunny Runner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Bunny Runner.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		DE2C6DC01CA380CB00D54F2A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		DE2C6DC21CA380CB00D54F2A /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
-		DE2C6DC41CA380CB00D54F2A /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
-		DE2C6DC61CA380CB00D54F2A /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
-		DE2C6DC91CA380CB00D54F2A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DE2C6DCB1CA380CB00D54F2A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		DE2C6DCE1CA380CB00D54F2A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		DE2C6DD01CA380CB00D54F2A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DE2C6DD51CA380CB00D54F2A /* Bunny RunnerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Bunny RunnerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DE2C6DD91CA380CB00D54F2A /* Bunny_RunnerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bunny_RunnerTests.swift; sourceTree = "<group>"; };
 		DE2C6DDB1CA380CB00D54F2A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DE2C6DE01CA380CB00D54F2A /* Bunny RunnerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Bunny RunnerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DE2C6DE41CA380CB00D54F2A /* Bunny_RunnerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bunny_RunnerUITests.swift; sourceTree = "<group>"; };
 		DE2C6DE61CA380CB00D54F2A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DE2C6DFC1CA3866E00D54F2A /* Bunny Runner-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Bunny Runner-Bridging-Header.h"; sourceTree = "<group>"; };
+		DE2C6DFD1CA3866F00D54F2A /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DE2C6DFE1CA3866F00D54F2A /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		DE2C6DFF1CA3866F00D54F2A /* GameScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		DE2C6E001CA3866F00D54F2A /* GameViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		DE2C6E011CA3866F00D54F2A /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		DE2C6E021CA3866F00D54F2A /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DE2C6E031CA3866F00D54F2A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DE2C6E041CA3866F00D54F2A /* score_up.caff */ = {isa = PBXFileReference; lastKnownFileType = file; path = score_up.caff; sourceTree = "<group>"; };
+		DE2C6E051CA3866F00D54F2A /* small_pixel-7.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "small_pixel-7.ttf"; sourceTree = "<group>"; };
+		DE2C6E061CA3866F00D54F2A /* sound_die.caff */ = {isa = PBXFileReference; lastKnownFileType = file; path = sound_die.caff; sourceTree = "<group>"; };
+		DE2C6E071CA3866F00D54F2A /* score_up_higher.caff */ = {isa = PBXFileReference; lastKnownFileType = file; path = score_up_higher.caff; sourceTree = "<group>"; };
+		DE2C6E081CA3866F00D54F2A /* PlayScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayScene.swift; sourceTree = "<group>"; };
+		DE2C6E091CA3866F00D54F2A /* RandomFunction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RandomFunction.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,14 +115,21 @@
 		DE2C6DBF1CA380CB00D54F2A /* Bunny Runner */ = {
 			isa = PBXGroup;
 			children = (
-				DE2C6DC01CA380CB00D54F2A /* AppDelegate.swift */,
-				DE2C6DC21CA380CB00D54F2A /* GameScene.sks */,
-				DE2C6DC41CA380CB00D54F2A /* GameScene.swift */,
-				DE2C6DC61CA380CB00D54F2A /* GameViewController.swift */,
-				DE2C6DC81CA380CB00D54F2A /* Main.storyboard */,
 				DE2C6DCB1CA380CB00D54F2A /* Assets.xcassets */,
-				DE2C6DCD1CA380CB00D54F2A /* LaunchScreen.storyboard */,
-				DE2C6DD01CA380CB00D54F2A /* Info.plist */,
+				DE2C6DFD1CA3866F00D54F2A /* AppDelegate.swift */,
+				DE2C6DFE1CA3866F00D54F2A /* GameScene.sks */,
+				DE2C6DFF1CA3866F00D54F2A /* GameScene.swift */,
+				DE2C6E001CA3866F00D54F2A /* GameViewController.swift */,
+				DE2C6E011CA3866F00D54F2A /* Main.storyboard */,
+				DE2C6E021CA3866F00D54F2A /* LaunchScreen.storyboard */,
+				DE2C6E031CA3866F00D54F2A /* Info.plist */,
+				DE2C6E041CA3866F00D54F2A /* score_up.caff */,
+				DE2C6E051CA3866F00D54F2A /* small_pixel-7.ttf */,
+				DE2C6E061CA3866F00D54F2A /* sound_die.caff */,
+				DE2C6E071CA3866F00D54F2A /* score_up_higher.caff */,
+				DE2C6E081CA3866F00D54F2A /* PlayScene.swift */,
+				DE2C6E091CA3866F00D54F2A /* RandomFunction.swift */,
+				DE2C6DFC1CA3866E00D54F2A /* Bunny Runner-Bridging-Header.h */,
 			);
 			path = "Bunny Runner";
 			sourceTree = "<group>";
@@ -199,6 +220,7 @@
 				TargetAttributes = {
 					DE2C6DBC1CA380CB00D54F2A = {
 						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = BKQ7GC9PF5;
 					};
 					DE2C6DD41CA380CB00D54F2A = {
 						CreatedOnToolsVersion = 7.2.1;
@@ -235,10 +257,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DE2C6DC31CA380CB00D54F2A /* GameScene.sks in Resources */,
-				DE2C6DCF1CA380CB00D54F2A /* LaunchScreen.storyboard in Resources */,
+				DE2C6E0E1CA3866F00D54F2A /* Main.storyboard in Resources */,
+				DE2C6E0F1CA3866F00D54F2A /* LaunchScreen.storyboard in Resources */,
+				DE2C6E0B1CA3866F00D54F2A /* GameScene.sks in Resources */,
+				DE2C6E111CA3866F00D54F2A /* score_up.caff in Resources */,
+				DE2C6E101CA3866F00D54F2A /* Info.plist in Resources */,
 				DE2C6DCC1CA380CB00D54F2A /* Assets.xcassets in Resources */,
-				DE2C6DCA1CA380CB00D54F2A /* Main.storyboard in Resources */,
+				DE2C6E141CA3866F00D54F2A /* score_up_higher.caff in Resources */,
+				DE2C6E131CA3866F00D54F2A /* sound_die.caff in Resources */,
+				DE2C6E121CA3866F00D54F2A /* small_pixel-7.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -263,9 +290,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DE2C6DC51CA380CB00D54F2A /* GameScene.swift in Sources */,
-				DE2C6DC71CA380CB00D54F2A /* GameViewController.swift in Sources */,
-				DE2C6DC11CA380CB00D54F2A /* AppDelegate.swift in Sources */,
+				DE2C6E0C1CA3866F00D54F2A /* GameScene.swift in Sources */,
+				DE2C6E0D1CA3866F00D54F2A /* GameViewController.swift in Sources */,
+				DE2C6E151CA3866F00D54F2A /* PlayScene.swift in Sources */,
+				DE2C6E161CA3866F00D54F2A /* RandomFunction.swift in Sources */,
+				DE2C6E0A1CA3866F00D54F2A /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -299,25 +328,6 @@
 			targetProxy = DE2C6DE11CA380CB00D54F2A /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		DE2C6DC81CA380CB00D54F2A /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				DE2C6DC91CA380CB00D54F2A /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		DE2C6DCD1CA380CB00D54F2A /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				DE2C6DCE1CA380CB00D54F2A /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		DE2C6DE71CA380CB00D54F2A /* Debug */ = {
@@ -407,10 +417,21 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = "Bunny Runner/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "AnvilStudios.Bunny-Runner";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "Bunny Runner/Bunny Runner-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -418,10 +439,20 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = "Bunny Runner/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "AnvilStudios.Bunny-Runner";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "Bunny Runner/Bunny Runner-Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -494,6 +525,7 @@
 				DE2C6DEB1CA380CB00D54F2A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DE2C6DEC1CA380CB00D54F2A /* Build configuration list for PBXNativeTarget "Bunny RunnerTests" */ = {
 			isa = XCConfigurationList;
@@ -502,6 +534,7 @@
 				DE2C6DEE1CA380CB00D54F2A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DE2C6DEF1CA380CB00D54F2A /* Build configuration list for PBXNativeTarget "Bunny RunnerUITests" */ = {
 			isa = XCConfigurationList;
@@ -510,6 +543,7 @@
 				DE2C6DF11CA380CB00D54F2A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

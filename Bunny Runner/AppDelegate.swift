@@ -1,9 +1,9 @@
 //
 //  AppDelegate.swift
-//  Bunny Runner
+//  Bunny Run 5
 //
-//  Created by Garrett Bland on 3/23/16.
-//  Copyright © 2016 Anvil Studios. All rights reserved.
+//  Created by Garrett Bland on 1/21/16.
+//  Copyright © 2016 Flat Circle Interactive. All rights reserved.
 //
 
 import UIKit
